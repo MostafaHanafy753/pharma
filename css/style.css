@@ -51,6 +51,7 @@ body {
   color: #656565;
   font-size: 14px;
   line-height: 27px;
+  overflow-x: hidden;
 }
 
 .container {
@@ -542,17 +543,38 @@ a:active {
 /**************************
 * 4. banner styles
 ***************************/
+.circal{
+  background-image: linear-gradient(to bottom right, #628B90 , #004248);
+  position: absolute;
+  top: -300px;
+  right: -300px;
+  width:1350px;
+  height: 1200px;
+  border-radius: 50%;
+  z-index: -1;
+
+
+}
 .banner-static {
-  background: #fff url(../img/slider-bg.jpg) 90% top no-repeat;
   padding-top: 190px;
   overflow: hidden;
   min-height: calc(100vh - 100px);
 }
-
+.customeImage{
+  width:150%;
+}
+.bannerImageCenter{
+  display: flex;
+  justify-content: center ;
+}
 @media (max-width: 1366px) {
-  .banner-static {
-    background: #fff url(../img/slider-bg.jpg) center top no-repeat;
+  /* .banner-static {
+    background: #fff url(../img/hannnnfyyyyy3.png) center top no-repeat;
     background-size: cover;
+  } */
+  .circal{
+    width: 1000px;
+    height:1000px;
   }
 }
 
