@@ -51,7 +51,7 @@ body {
   color: #656565;
   font-size: 14px;
   line-height: 27px;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .container {
@@ -336,6 +336,9 @@ a:active {
 /**************************
 * 3. header styles
 ***************************/
+.bg3{
+  background: radial-gradient(circle,  #628B90  0%, #004248 90%);
+}
 .home-page-one {
   position: absolute;
   top: 0;
@@ -431,7 +434,7 @@ a:active {
 }
 
 .home-page-one.menu-bg-overlay {
-  background-color: #0E0F1F;
+  background-color: #628B90;
   -webkit-animation-duration: .7s;
   animation-duration: .7s;
   -webkit-animation-fill-mode: both;
@@ -460,7 +463,7 @@ a:active {
 }
 
 .home-page-one.menu-bg-overlay .navbar-nav .nav-link.active {
-  color: #d13497 !important;
+  color: #000000 !important;
 }
 
 .home-page-one .stick-logo {
@@ -543,17 +546,18 @@ a:active {
 /**************************
 * 4. banner styles
 ***************************/
+
 .circal{
-  background-image: linear-gradient(to bottom right, #628B90 , #004248);
   position: absolute;
-  top: -300px;
-  right: -300px;
-  width:1350px;
-  height: 1200px;
+  top: 1%;
+  right: -22%;
+  width: 1000px;
+  height: 1000px;
+  z-index: 0;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(circle,  #628B90  0%, #004248 90%);
+  backdrop-filter: blur(10px);
   border-radius: 50%;
-  z-index: -1;
-
-
 }
 .banner-static {
   padding-top: 190px;
@@ -593,7 +597,7 @@ a:active {
 
 .banner-static .banner-content p {
   margin: 0;
-  color: #666666;
+  color: #FFFFFF;
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 54px;
@@ -1953,7 +1957,7 @@ footer.footer .subscribe-section .subscribe-form button[type=submit] span {
 }
 
 footer.footer .subscribe-section .subscribe-form button[type=submit]:hover {
-  background: #0E0F1F;
+  background: #628B90;
 }
 
 footer.footer .subscribe-section .subscribe-form button[type=submit]:hover:before {
@@ -2601,6 +2605,16 @@ footer.footer .footer-widget.links-widget ul {
 }
 
 @media (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+    position: relative;
+  }
+  .circal{
+    width: 600px;
+    height: 700px;
+    top: -50;
+    right: inherit;
+  }
   #testimonials-slider-pager {
     display: none;
   }
