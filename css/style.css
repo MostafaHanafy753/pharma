@@ -70,12 +70,18 @@ a:active {
   -webkit-transition: none;
   transition: none;
 }
-
+.clr{
+  clear: both;
+}
 @media (min-width: 1200px) {
   .container {
     padding-left: 0;
     padding-right: 0;
   }
+
+}
+.img-fluid {
+  max-width: 100%;
 }
 
 .sec-pad {
@@ -408,6 +414,7 @@ a:active {
   padding: 4.5px 21.5px;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
+
 }
 
 .sign-up-btn a:hover {
@@ -559,6 +566,7 @@ a:active {
   backdrop-filter: blur(10px);
   border-radius: 50%;
 }
+
 .banner-static {
   padding-top: 190px;
   overflow: hidden;
@@ -861,7 +869,7 @@ a:active {
 * 8. video box styles
 ***************************/
 .video-box {
-  background: #D9378B url(../img/video-bg.jpg) center center no-repeat fixed;
+  background: #D9378B url(../img/pexels-photo-7615563.jpeg) center center no-repeat fixed;
   background-size: cover;
   position: relative;
   padding: 126px 0;
@@ -874,7 +882,7 @@ a:active {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(61, 30, 130, 0.67);
+  background: rgb(98 139 144 / 25%)
 }
 
 .video-box .container {
@@ -916,7 +924,7 @@ a:active {
   font-size: 20px;
   line-height: 84px;
   border-radius: 50%;
-  background: #D9378B;
+  background: linear-gradient(to right, #004248 0%, #628B90 98%, #2C6369 100%);;
 }
 
 /**************************
