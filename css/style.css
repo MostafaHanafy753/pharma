@@ -99,7 +99,9 @@ a:active {
 .pt70 {
   padding-top: 70px !important;
 }
-
+.pt150{
+  padding-top: 150px !important;
+}
 .pb0 {
   padding-bottom: 0 !important;
 }
@@ -655,6 +657,45 @@ a:active {
   left: 175px;
 }
 
+
+@media (max-width: 414px){
+  .how-app-work-section .single-how-app-work .icon-box .inner {
+    margin: auto;
+  }
+
+
+
+.banner-static .banner-content {
+    padding-top: 0;
+    text-align: -webkit-center ;
+}
+.pt150{
+  padding-top: 0 !important;
+}
+.banner-static .banner-content
+  .text{
+    text-align: center !important;
+  }
+  .how-app-work-section{
+    text-align: center;
+  }
+
+.how-app-work-section .download-btn.active
+{
+
+  width: max-content;
+  text-align: center;
+}
+.how-app-work-section .download-btn
+{
+  display: block;
+  width: max-content;
+  text-align: center;
+}
+.text{
+  text-align: center;
+}
+}
 .img-fluid {
   max-width: 150%;
 }
