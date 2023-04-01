@@ -656,7 +656,19 @@ a:active {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 150%;
+}
+@media (max-width:1462px) {
+  .img-fluid{
+    max-width: 120%;
+  }
+
+}
+@media (max-width:985px) {
+  .img-fluid{
+    max-width: 100%;
+  }
+
 }
 .img-height{
   height: 100%;
