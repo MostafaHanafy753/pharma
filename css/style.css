@@ -693,7 +693,7 @@ a:active {
 * 6. app features styles
 ***************************/
 .p-150{
-  padding: 150px;
+  padding-top: 150px;
 }
 .app-features {
   padding-top: 135px;
