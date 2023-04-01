@@ -562,7 +562,7 @@ a:active {
 .banner-static {
   padding-top: 190px;
   overflow: hidden;
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 3px);
 }
 .customeImage{
   width:150%;
@@ -608,14 +608,18 @@ a:active {
 }
 
 .banner-static .banner-content .thm-btn {
-  -webkit-box-shadow: 0px 15px 30px rgba(212, 50, 151, 0.27);
-  box-shadow: 0px 15px 30px rgba(212, 50, 151, 0.27);
+  -webkit-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.27);
+
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.27);
+
 }
 
 .banner-static .banner-content .thm-btn:hover {
   color: #fff;
-  -webkit-box-shadow: 0px 15px 30px rgba(212, 50, 151, 0.27);
-  box-shadow: 0px 15px 30px rgba(212, 50, 151, 0.27);
+  -webkit-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.27);
+
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.27);
+
 }
 
 .banner-static .banner-content .thm-btn:hover:before {
@@ -628,8 +632,10 @@ a:active {
 }
 
 .banner-static .banner-content .thm-btn.borderd:hover {
-  -webkit-box-shadow: 0px 15px 30px rgba(212, 50, 151, 0.27);
-  box-shadow: 0px 15px 30px rgba(212, 50, 151, 0.27);
+  -webkit-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.27);
+
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.27);
+
 }
 
 .banner-static .banner-content .thm-btn.borderd:hover:before {
@@ -686,6 +692,9 @@ a:active {
 /**************************
 * 6. app features styles
 ***************************/
+.p-150{
+  padding: 150px;
+}
 .app-features {
   padding-top: 135px;
 }
@@ -981,7 +990,7 @@ a:active {
 }
 
 .pricing-section input:focus+.slider {
-  -webkit-box-shadow: 0 0 1px #2196F3;
+  -webkit-box-shadow: 0 0 1px #ddd;
   box-shadow: 0 0 1px #2196F3;
 }
 
@@ -1101,8 +1110,9 @@ a:active {
 }
 
 .pricing-section .single-pricing a.thm-btn:hover {
-  -webkit-box-shadow: 0px 15px 30px rgba(212, 50, 151, 0.27);
-  box-shadow: 0px 15px 30px rgba(212, 50, 151, 0.27);
+  -webkit-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.27);
+
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.27);
 }
 
 .pricing-section .single-pricing.popular {
@@ -1121,8 +1131,10 @@ a:active {
 
 .pricing-section .single-pricing.popular .thm-btn {
   color: #fff;
-  -webkit-box-shadow: 0px 15px 30px rgba(212, 50, 151, 0.27);
-  box-shadow: 0px 15px 30px rgba(212, 50, 151, 0.27);
+  -webkit-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.27);
+
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.27);
+
 }
 
 .pricing-section .single-pricing.popular .thm-btn:before {
@@ -1197,8 +1209,10 @@ a:active {
 .intigration-section .intigration-img-box img:hover {
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
-  -webkit-box-shadow: 0px 15px 30px rgba(212, 50, 151, 0.27);
-  box-shadow: 0px 15px 30px rgba(212, 50, 151, 0.27);
+  -webkit-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.27);
+
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.27);
+
 }
 
 .intigration-section .intigration-img-box img:nth-child(1) {
@@ -2894,8 +2908,10 @@ footer.footer .footer-widget.links-widget ul {
 }
 
 .how-app-work-section .download-btn.active, .how-app-work-section .download-btn:hover {
-  -webkit-box-shadow: 0px 15px 30px rgba(212, 50, 151, 0.27);
-  box-shadow: 0px 15px 30px rgba(212, 50, 151, 0.27);
+  -webkit-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.27);
+
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.27);
+
 }
 
 .how-app-work-section .download-btn.active:before, .how-app-work-section .download-btn:hover:before {
