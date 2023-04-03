@@ -470,9 +470,14 @@ a:active {
 .home-page-one.menu-bg-overlay .appilo-menu {
   top: 15px;
 }
+.head{
+color: #FFFFFF;
+font-size: 20px;
+margin: 10px;
+}
 
 .home-page-one.menu-bg-overlay .navbar-nav .nav-link.active {
-  color: #000000 !important;
+  color: #dc3545 !important;
 }
 
 .home-page-one .stick-logo {
